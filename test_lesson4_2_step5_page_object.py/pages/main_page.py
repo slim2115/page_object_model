@@ -6,4 +6,3 @@ class MainPage(BasePage): # где BasePage наследник MainPage
 # Так как браузер у нас хранится как аргумент класса BasePage,обращаться к нему нужно соответствующим бразом с помощью self
         login_link = browser.find_element(By.CSS_SELECTOR, "#login_link")
         login_link.click()
-

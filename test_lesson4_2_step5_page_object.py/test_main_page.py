@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 from .pages.main_page import MainPage  # импорт класса, описывающий главную страницу
+from .pages.base_page import BasePage  # импорт класса, описывающий главную страницу
 
 class MainPage ():
     def test_guest_can_go_to_login_page(browser):
